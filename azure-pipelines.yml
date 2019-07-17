@@ -13,3 +13,6 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
+- task: WhiteSource Bolt@19
+  inputs:
+    cwd: '.'
